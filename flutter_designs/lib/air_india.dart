@@ -197,7 +197,7 @@ class _AirIndiaState extends State<AirIndia> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(left: 150,top: 100),
+                        padding: const EdgeInsets.only(left: 150, top: 100),
                         child: Row(
                           children: [
                             SizedBox(
@@ -424,10 +424,13 @@ class _AirIndiaState extends State<AirIndia> {
           ),
         ),
       ),
-      floatingActionButton: FloatingActionButton(shape:CircleBorder() ,
-        onPressed: () {
-
-      },child: ClipOval(child: Image.asset('images/girl1.jpg',fit: BoxFit.fill,)),),
+      floatingActionButton: FloatingActionButton(
+        shape: CircleBorder(),
+        onPressed: () {},
+        child: ClipOval(
+          child: Image.asset('images/girl1.jpg', fit: BoxFit.fill),
+        ),
+      ),
     );
   }
 }

@@ -137,7 +137,11 @@ class _PhonePayState extends State<PhonePay> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 35.0, right: 35.0, top: 10.0),
+              padding: const EdgeInsets.only(
+                left: 35.0,
+                right: 35.0,
+                top: 10.0,
+              ),
               child: Row(
                 spacing: 20.0,
                 children: [
@@ -151,7 +155,10 @@ class _PhonePayState extends State<PhonePay> {
                             color: Color(0xff670fc5),
                             borderRadius: BorderRadius.circular(30.0),
                           ),
-                          child: Icon(CupertinoIcons.phone,color: Colors.white,),
+                          child: Icon(
+                            CupertinoIcons.phone,
+                            color: Colors.white,
+                          ),
                         ),
                         SizedBox(height: 5),
                         Text(
@@ -174,7 +181,7 @@ class _PhonePayState extends State<PhonePay> {
                             color: Color(0xff670fc5),
                             borderRadius: BorderRadius.circular(30.0),
                           ),
-                          child: Icon(Icons.food_bank,color: Colors.white,),
+                          child: Icon(Icons.food_bank, color: Colors.white),
                         ),
                         SizedBox(height: 5),
                         Text(
@@ -197,7 +204,10 @@ class _PhonePayState extends State<PhonePay> {
                             color: Color(0xff670fc5),
                             borderRadius: BorderRadius.circular(30.0),
                           ),
-                          child: Icon(CupertinoIcons.speaker_1_fill,color: Colors.white,),
+                          child: Icon(
+                            CupertinoIcons.speaker_1_fill,
+                            color: Colors.white,
+                          ),
                         ),
                         SizedBox(height: 5),
                         Text(
@@ -220,7 +230,10 @@ class _PhonePayState extends State<PhonePay> {
                             color: Color(0xff670fc5),
                             borderRadius: BorderRadius.circular(30.0),
                           ),
-                          child: Icon(Icons.currency_rupee,color: Colors.white,),
+                          child: Icon(
+                            Icons.currency_rupee,
+                            color: Colors.white,
+                          ),
                         ),
                         SizedBox(height: 5),
                         Text(
@@ -237,27 +250,45 @@ class _PhonePayState extends State<PhonePay> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 15.0, right: 15.0, top: 20.0),
+              padding: const EdgeInsets.only(
+                left: 15.0,
+                right: 15.0,
+                top: 20.0,
+              ),
               child: Container(
                 width: 330,
                 height: 160,
                 decoration: BoxDecoration(
                   color: Color(0xfff6f6f6),
                   borderRadius: BorderRadius.circular(13.0),
-                  border: Border.all(color: Colors.grey.shade200)
+                  border: Border.all(color: Colors.grey.shade200),
                 ),
                 child: Padding(
-                  padding: const EdgeInsets.only(left: 20.0,right: 20.0,top: 17.0),
+                  padding: const EdgeInsets.only(
+                    left: 20.0,
+                    right: 20.0,
+                    top: 17.0,
+                  ),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Row(
                         children: [
-                          Text('Recharge & Bills',style: TextStyle(fontWeight: FontWeight.bold),),
+                          Text(
+                            'Recharge & Bills',
+                            style: TextStyle(fontWeight: FontWeight.bold),
+                          ),
                           Spacer(),
-                          TextButton(onPressed: () {
-
-                          },child: Text('View All',style: TextStyle(fontWeight: FontWeight.bold,color: Color(0xff670fc5)),),),
+                          TextButton(
+                            onPressed: () {},
+                            child: Text(
+                              'View All',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                color: Color(0xff670fc5),
+                              ),
+                            ),
+                          ),
                         ],
                       ),
                       Row(
@@ -272,9 +303,14 @@ class _PhonePayState extends State<PhonePay> {
                                   decoration: BoxDecoration(
                                     color: Colors.white,
                                     borderRadius: BorderRadius.circular(30.0),
-                                    border: Border.all(color: Colors.grey.shade200)
+                                    border: Border.all(
+                                      color: Colors.grey.shade200,
+                                    ),
                                   ),
-                                  child: Icon(Icons.phone_android,color: Color(0xff670fc5),),
+                                  child: Icon(
+                                    Icons.phone_android,
+                                    color: Color(0xff670fc5),
+                                  ),
                                 ),
                                 SizedBox(height: 5),
                                 Text(
@@ -294,11 +330,16 @@ class _PhonePayState extends State<PhonePay> {
                                   height: 55,
                                   width: 55,
                                   decoration: BoxDecoration(
-                                      color: Colors.white,
-                                      borderRadius: BorderRadius.circular(30.0),
-                                      border: Border.all(color: Colors.grey.shade200)
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(30.0),
+                                    border: Border.all(
+                                      color: Colors.grey.shade200,
+                                    ),
                                   ),
-                                  child: Icon(CupertinoIcons.home,color: Colors.purple.shade700,),
+                                  child: Icon(
+                                    CupertinoIcons.home,
+                                    color: Colors.purple.shade700,
+                                  ),
                                 ),
                                 SizedBox(height: 5),
                                 Text(
@@ -318,11 +359,16 @@ class _PhonePayState extends State<PhonePay> {
                                   height: 55,
                                   width: 55,
                                   decoration: BoxDecoration(
-                                      color: Colors.white,
-                                      borderRadius: BorderRadius.circular(30.0),
-                                      border: Border.all(color: Colors.grey.shade200)
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(30.0),
+                                    border: Border.all(
+                                      color: Colors.grey.shade200,
+                                    ),
                                   ),
-                                  child: Icon(Icons.phone_android,color: Color(0xff670fc5),),
+                                  child: Icon(
+                                    Icons.phone_android,
+                                    color: Color(0xff670fc5),
+                                  ),
                                 ),
                                 SizedBox(height: 5),
                                 Text(
@@ -342,11 +388,16 @@ class _PhonePayState extends State<PhonePay> {
                                   height: 55,
                                   width: 55,
                                   decoration: BoxDecoration(
-                                      color: Colors.white,
-                                      borderRadius: BorderRadius.circular(30.0),
-                                      border: Border.all(color: Colors.grey.shade200)
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(30.0),
+                                    border: Border.all(
+                                      color: Colors.grey.shade200,
+                                    ),
                                   ),
-                                  child: Icon(Icons.phone_android,color: Color(0xff670fc5),),
+                                  child: Icon(
+                                    Icons.phone_android,
+                                    color: Color(0xff670fc5),
+                                  ),
                                 ),
                                 SizedBox(height: 5),
                                 Text(
@@ -367,7 +418,11 @@ class _PhonePayState extends State<PhonePay> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 15.0, right: 15.0, top: 15.0),
+              padding: const EdgeInsets.only(
+                left: 15.0,
+                right: 15.0,
+                top: 15.0,
+              ),
               child: Row(
                 spacing: 15.0,
                 children: [
@@ -377,7 +432,7 @@ class _PhonePayState extends State<PhonePay> {
                     decoration: BoxDecoration(
                       color: Color(0xfff6f6f6),
                       borderRadius: BorderRadius.circular(10.0),
-                        border: Border.all(color: Colors.grey.shade200)
+                      border: Border.all(color: Colors.grey.shade200),
                     ),
                   ),
                   Container(
@@ -386,14 +441,18 @@ class _PhonePayState extends State<PhonePay> {
                     decoration: BoxDecoration(
                       color: Color(0xfff6f6f6),
                       borderRadius: BorderRadius.circular(10.0),
-                        border: Border.all(color: Colors.grey.shade200)
+                      border: Border.all(color: Colors.grey.shade200),
                     ),
                   ),
                 ],
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 15.0, right: 15.0, top: 15.0),
+              padding: const EdgeInsets.only(
+                left: 15.0,
+                right: 15.0,
+                top: 15.0,
+              ),
               child: Row(
                 spacing: 15.0,
                 children: [
@@ -401,18 +460,18 @@ class _PhonePayState extends State<PhonePay> {
                     width: 157,
                     height: 65,
                     decoration: BoxDecoration(
-                        color: Color(0xfff6f6f6),
-                        borderRadius: BorderRadius.circular(10.0),
-                        border: Border.all(color: Colors.grey.shade200)
+                      color: Color(0xfff6f6f6),
+                      borderRadius: BorderRadius.circular(10.0),
+                      border: Border.all(color: Colors.grey.shade200),
                     ),
                   ),
                   Container(
                     width: 157,
                     height: 65,
                     decoration: BoxDecoration(
-                        color: Color(0xfff6f6f6),
-                        borderRadius: BorderRadius.circular(10.0),
-                        border: Border.all(color: Colors.grey.shade200)
+                      color: Color(0xfff6f6f6),
+                      borderRadius: BorderRadius.circular(10.0),
+                      border: Border.all(color: Colors.grey.shade200),
                     ),
                   ),
                 ],
@@ -447,25 +506,27 @@ class _PhonePayState extends State<PhonePay> {
                   icon: SizedBox(
                     height: 25,
                     width: 25,
-                    child: Icon(CupertinoIcons.search,color: Colors.grey,),
+                    child: Icon(CupertinoIcons.search, color: Colors.grey),
                   ),
                 ),
                 Text('Search', style: TextStyle(color: Colors.grey.shade600)),
               ],
             ),
-                IconButton(
-                  enableFeedback: false,
-                  onPressed: () {},
-                  icon: Container(
-                      width: 55,
-                      height: 55,
-                      decoration: BoxDecoration(
-                        color: Color(0xff670fc5),
-                        borderRadius: BorderRadius.circular(30.0)
-                      ),
-                    child: Center(child: Icon(Icons.qr_code_scanner,color: Colors.white,),),
-                    ),
-                  ),
+            IconButton(
+              enableFeedback: false,
+              onPressed: () {},
+              icon: Container(
+                width: 55,
+                height: 55,
+                decoration: BoxDecoration(
+                  color: Color(0xff670fc5),
+                  borderRadius: BorderRadius.circular(30.0),
+                ),
+                child: Center(
+                  child: Icon(Icons.qr_code_scanner, color: Colors.white),
+                ),
+              ),
+            ),
             Column(
               children: [
                 IconButton(
@@ -474,13 +535,10 @@ class _PhonePayState extends State<PhonePay> {
                   icon: SizedBox(
                     width: 25,
                     height: 25,
-                    child: Icon(CupertinoIcons.bell,color: Colors.grey,),
+                    child: Icon(CupertinoIcons.bell, color: Colors.grey),
                   ),
                 ),
-                Text(
-                  'Alerts',
-                  style: TextStyle(color: Colors.grey.shade600),
-                ),
+                Text('Alerts', style: TextStyle(color: Colors.grey.shade600)),
               ],
             ),
             Column(
@@ -488,7 +546,7 @@ class _PhonePayState extends State<PhonePay> {
                 IconButton(
                   enableFeedback: false,
                   onPressed: () {},
-                  icon: Icon(Icons.access_time_rounded,color: Colors.grey,),
+                  icon: Icon(Icons.access_time_rounded, color: Colors.grey),
                 ),
                 Text('History', style: TextStyle(color: Colors.grey.shade600)),
               ],

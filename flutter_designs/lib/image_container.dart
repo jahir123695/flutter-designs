@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class ImageContainer extends StatelessWidget {
@@ -21,13 +20,21 @@ class _ContainersState extends State<Containers> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Design',style: TextStyle(color: Colors.white),),backgroundColor: Colors.blueGrey,leading: Icon(Icons.arrow_back,color: Colors.white,),),
+      appBar: AppBar(
+        title: Text('Design', style: TextStyle(color: Colors.white)),
+        backgroundColor: Colors.blueGrey,
+        leading: Icon(Icons.arrow_back, color: Colors.white),
+      ),
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.only(left: 15.0, right: 15.0, top: 35.0),
+              padding: const EdgeInsets.only(
+                left: 15.0,
+                right: 15.0,
+                top: 35.0,
+              ),
               child: Row(
                 spacing: 10.0,
                 children: [
@@ -68,7 +75,11 @@ class _ContainersState extends State<Containers> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 15.0, right: 15.0, top: 30.0),
+              padding: const EdgeInsets.only(
+                left: 15.0,
+                right: 15.0,
+                top: 30.0,
+              ),
               child: Expanded(
                 child: Container(
                   width: 340,
@@ -82,7 +93,11 @@ class _ContainersState extends State<Containers> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 15.0, right: 15.0, top: 30.0),
+              padding: const EdgeInsets.only(
+                left: 15.0,
+                right: 15.0,
+                top: 30.0,
+              ),
               child: Row(
                 spacing: 10.0,
                 children: [

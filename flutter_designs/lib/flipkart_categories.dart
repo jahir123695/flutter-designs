@@ -41,7 +41,7 @@ class _FlipkartState extends State<Flipkart> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Icon(Icons.photo_camera_outlined, size: 20),
-                    SizedBox(width: 3,),
+                    SizedBox(width: 3),
                     Icon(Icons.mic, size: 20),
                   ],
                 ),
@@ -54,10 +54,10 @@ class _FlipkartState extends State<Flipkart> {
           ),
         ),
         actions: [
-         Padding(
-           padding: const EdgeInsets.only(right: 15),
-           child: Icon(Icons.qr_code_scanner,color: Colors.white,),
-         )
+          Padding(
+            padding: const EdgeInsets.only(right: 15),
+            child: Icon(Icons.qr_code_scanner, color: Colors.white),
+          ),
         ],
       ),
       body: Row(
@@ -199,7 +199,9 @@ class _FlipkartState extends State<Flipkart> {
                         SizedBox(
                           width: 70,
                           height: 30,
-                          child: Image.network('https://www.pngplay.com/wp-content/uploads/7/Grocery-Transparent-PNG.png'),
+                          child: Image.network(
+                            'https://www.pngplay.com/wp-content/uploads/7/Grocery-Transparent-PNG.png',
+                          ),
                         ),
                         SizedBox(height: 5.0),
                         Text(
@@ -400,14 +402,14 @@ class _FlipkartState extends State<Flipkart> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Padding(
-                padding: const EdgeInsets.only(top: 15,left: 15),
+                padding: const EdgeInsets.only(top: 15, left: 15),
                 child: Text(
                   'Top Categories for you',
                   style: TextStyle(fontWeight: FontWeight.w600, fontSize: 12),
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 17,top: 20),
+                padding: const EdgeInsets.only(left: 17, top: 20),
                 child: Row(
                   spacing: 15,
                   children: [
@@ -418,7 +420,9 @@ class _FlipkartState extends State<Flipkart> {
                           SizedBox(
                             width: 70,
                             height: 40,
-                            child: Image.network('https://www.pngmart.com/files/15/Apple-iPhone-12-PNG-Picture.png'),
+                            child: Image.network(
+                              'https://www.pngmart.com/files/15/Apple-iPhone-12-PNG-Picture.png',
+                            ),
                           ),
                           SizedBox(height: 5.0),
                           Text(
@@ -438,7 +442,9 @@ class _FlipkartState extends State<Flipkart> {
                           SizedBox(
                             width: 70,
                             height: 43,
-                            child: Image.network('https://static.vecteezy.com/system/resources/previews/045/592/655/non_2x/confident-businessman-in-stylish-grey-suit-standing-with-hands-in-pockets-png.png'),
+                            child: Image.network(
+                              'https://static.vecteezy.com/system/resources/previews/045/592/655/non_2x/confident-businessman-in-stylish-grey-suit-standing-with-hands-in-pockets-png.png',
+                            ),
                           ),
                           SizedBox(height: 5.0),
                           Text(
@@ -458,7 +464,9 @@ class _FlipkartState extends State<Flipkart> {
                           SizedBox(
                             width: 70,
                             height: 43,
-                            child: Image.network('https://www.pngplay.com/wp-content/uploads/6/Electronic-Gadgets-PNG-Clipart-Background.png'),
+                            child: Image.network(
+                              'https://www.pngplay.com/wp-content/uploads/6/Electronic-Gadgets-PNG-Clipart-Background.png',
+                            ),
                           ),
                           SizedBox(height: 5.0),
                           Text(
@@ -474,7 +482,7 @@ class _FlipkartState extends State<Flipkart> {
                   ],
                 ),
               ),
-              SizedBox(height: 15.0,),
+              SizedBox(height: 15.0),
               Padding(
                 padding: const EdgeInsets.only(left: 17),
                 child: Row(
@@ -487,7 +495,9 @@ class _FlipkartState extends State<Flipkart> {
                           SizedBox(
                             width: 70,
                             height: 44,
-                            child: Image.network('https://static.vecteezy.com/system/resources/previews/052/504/381/non_2x/traveling-around-the-world-with-a-suitcase-free-png.png'),
+                            child: Image.network(
+                              'https://static.vecteezy.com/system/resources/previews/052/504/381/non_2x/traveling-around-the-world-with-a-suitcase-free-png.png',
+                            ),
                           ),
                           SizedBox(height: 5.0),
                           Text(
@@ -507,7 +517,9 @@ class _FlipkartState extends State<Flipkart> {
                           SizedBox(
                             width: 70,
                             height: 44,
-                            child: Image.network('https://www.iconpacks.net/icons/2/free-discount-icon-2045-thumb.png'),
+                            child: Image.network(
+                              'https://www.iconpacks.net/icons/2/free-discount-icon-2045-thumb.png',
+                            ),
                           ),
                           SizedBox(height: 5.0),
                           Text(
@@ -527,7 +539,9 @@ class _FlipkartState extends State<Flipkart> {
                           SizedBox(
                             width: 70,
                             height: 44,
-                            child: Image.network('https://www.pngall.com/wp-content/uploads/5/Phone-Accessories-PNG-HD-Image-300x225.png'),
+                            child: Image.network(
+                              'https://www.pngall.com/wp-content/uploads/5/Phone-Accessories-PNG-HD-Image-300x225.png',
+                            ),
                           ),
                           SizedBox(height: 5.0),
                           Text(
@@ -543,7 +557,7 @@ class _FlipkartState extends State<Flipkart> {
                   ],
                 ),
               ),
-              SizedBox(height: 15.0,),
+              SizedBox(height: 15.0),
               Padding(
                 padding: const EdgeInsets.only(left: 17),
                 child: Row(
@@ -556,7 +570,9 @@ class _FlipkartState extends State<Flipkart> {
                           SizedBox(
                             width: 70,
                             height: 44,
-                            child: Image.network('https://static.vecteezy.com/system/resources/thumbnails/048/758/540/small_2x/shopping-cart-with-groceries-on-transparent-background-png.png'),
+                            child: Image.network(
+                              'https://static.vecteezy.com/system/resources/thumbnails/048/758/540/small_2x/shopping-cart-with-groceries-on-transparent-background-png.png',
+                            ),
                           ),
                           SizedBox(height: 5.0),
                           Text(
@@ -576,7 +592,9 @@ class _FlipkartState extends State<Flipkart> {
                           SizedBox(
                             width: 70,
                             height: 44,
-                            child: Image.network('https://pngimg.com/d/popcorn_PNG46.png'),
+                            child: Image.network(
+                              'https://pngimg.com/d/popcorn_PNG46.png',
+                            ),
                           ),
                           SizedBox(height: 5.0),
                           Text(
@@ -596,7 +614,9 @@ class _FlipkartState extends State<Flipkart> {
                           SizedBox(
                             width: 70,
                             height: 44,
-                            child: Image.network('https://static.vecteezy.com/system/resources/thumbnails/035/197/725/small_2x/cosmetics-products-transparent-background-fashion-outfit-profucts-png.png'),
+                            child: Image.network(
+                              'https://static.vecteezy.com/system/resources/thumbnails/035/197/725/small_2x/cosmetics-products-transparent-background-fashion-outfit-profucts-png.png',
+                            ),
                           ),
                           SizedBox(height: 5.0),
                           Text(
@@ -612,7 +632,7 @@ class _FlipkartState extends State<Flipkart> {
                   ],
                 ),
               ),
-              SizedBox(height: 15.0,),
+              SizedBox(height: 15.0),
               Padding(
                 padding: const EdgeInsets.only(left: 17),
                 child: Row(
@@ -625,7 +645,9 @@ class _FlipkartState extends State<Flipkart> {
                           SizedBox(
                             width: 70,
                             height: 44,
-                            child: Image.network('https://static.vecteezy.com/system/resources/previews/047/308/664/non_2x/red-kitchen-appliances-on-a-white-background-free-png.png'),
+                            child: Image.network(
+                              'https://static.vecteezy.com/system/resources/previews/047/308/664/non_2x/red-kitchen-appliances-on-a-white-background-free-png.png',
+                            ),
                           ),
                           SizedBox(height: 5.0),
                           Text(
@@ -645,7 +667,9 @@ class _FlipkartState extends State<Flipkart> {
                           SizedBox(
                             width: 70,
                             height: 44,
-                            child: Image.network('https://www.pngmart.com/files/7/Dining-Set-PNG-Free-Download.png'),
+                            child: Image.network(
+                              'https://www.pngmart.com/files/7/Dining-Set-PNG-Free-Download.png',
+                            ),
                           ),
                           SizedBox(height: 5.0),
                           Text(
@@ -665,7 +689,9 @@ class _FlipkartState extends State<Flipkart> {
                           SizedBox(
                             width: 70,
                             height: 44,
-                            child: Image.network('https://cdni.iconscout.com/illustration/premium/thumb/kids-toy-box-illustration-download-in-svg-png-gif-file-formats--cute-kindergarten-spinning-top-toys-at-pack-illustrations-4286068.png?f=webp'),
+                            child: Image.network(
+                              'https://cdni.iconscout.com/illustration/premium/thumb/kids-toy-box-illustration-download-in-svg-png-gif-file-formats--cute-kindergarten-spinning-top-toys-at-pack-illustrations-4286068.png?f=webp',
+                            ),
                           ),
                           SizedBox(height: 5.0),
                           Text(
@@ -681,7 +707,7 @@ class _FlipkartState extends State<Flipkart> {
                   ],
                 ),
               ),
-              SizedBox(height: 15.0,),
+              SizedBox(height: 15.0),
               Padding(
                 padding: const EdgeInsets.only(left: 17),
                 child: Row(
@@ -694,7 +720,9 @@ class _FlipkartState extends State<Flipkart> {
                           SizedBox(
                             width: 70,
                             height: 42,
-                            child: Image.network('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnoY-DBdJTASEUmtsGisK0glKOK3Us4LgpnQ&s')
+                            child: Image.network(
+                              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnoY-DBdJTASEUmtsGisK0glKOK3Us4LgpnQ&s',
+                            ),
                           ),
                           SizedBox(height: 5.0),
                           Text(
@@ -714,7 +742,9 @@ class _FlipkartState extends State<Flipkart> {
                           SizedBox(
                             width: 70,
                             height: 42,
-                            child: Image.network('https://static-00.iconduck.com/assets.00/amazon-icon-2048x2048-pqt2fe18.png'),
+                            child: Image.network(
+                              'https://static-00.iconduck.com/assets.00/amazon-icon-2048x2048-pqt2fe18.png',
+                            ),
                           ),
                           SizedBox(height: 5.0),
                           Text(
@@ -738,69 +768,96 @@ class _FlipkartState extends State<Flipkart> {
         height: 160,
         child: Column(
           children: [
-            SizedBox(height: 10,),
+            SizedBox(height: 10),
             Container(
               height: 70,
               decoration: BoxDecoration(
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.grey.withOpacity(0.5),
-                      spreadRadius: 4,
-                      blurRadius: 5,
-                      offset: Offset(0, 3),
-                    ),
-                  ],
-                  color: Colors.white,
-                borderRadius: BorderRadius.only(topLeft: Radius.circular(15),topRight: Radius.circular(15))
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.grey.withOpacity(0.5),
+                    spreadRadius: 4,
+                    blurRadius: 5,
+                    offset: Offset(0, 3),
+                  ),
+                ],
+                color: Colors.white,
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(15),
+                  topRight: Radius.circular(15),
+                ),
               ),
               child: Padding(
-                padding: const EdgeInsets.only(left: 35,right: 35),
+                padding: const EdgeInsets.only(left: 35, right: 35),
                 child: Row(
                   spacing: 7,
                   children: [
-                  Container(
-                    width: 65,
-                    height: 33,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(6),
-                      border: Border.all(color: Colors.grey.shade400)
-                    ),
-                    child: Center(child: Text('Orders',style: TextStyle(fontWeight: FontWeight.w500),),),
-                  ),
-                  Container(
-                    width: 75,
-                    height: 33,
-                    decoration: BoxDecoration(
+                    Container(
+                      width: 65,
+                      height: 33,
+                      decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(6),
-                        border: Border.all(color: Colors.grey.shade400)
+                        border: Border.all(color: Colors.grey.shade400),
+                      ),
+                      child: Center(
+                        child: Text(
+                          'Orders',
+                          style: TextStyle(fontWeight: FontWeight.w500),
+                        ),
+                      ),
                     ),
-                    child: Center(child: Text('Buy Again',style: TextStyle(fontWeight: FontWeight.w500),),),
-                  ),
-                  Container(
-                    width: 65,
-                    height: 33,
-                    decoration: BoxDecoration(
+                    Container(
+                      width: 75,
+                      height: 33,
+                      decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(6),
-                        border: Border.all(color: Colors.grey.shade400)
+                        border: Border.all(color: Colors.grey.shade400),
+                      ),
+                      child: Center(
+                        child: Text(
+                          'Buy Again',
+                          style: TextStyle(fontWeight: FontWeight.w500),
+                        ),
+                      ),
                     ),
-                    child: Center(child: Text('Account',style: TextStyle(fontWeight: FontWeight.w500),),),
-                  ),
-                  Container(
-                    width: 50,
-                    height: 33,
-                    decoration: BoxDecoration(
+                    Container(
+                      width: 65,
+                      height: 33,
+                      decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(6),
-                        border: Border.all(color: Colors.grey.shade400)
+                        border: Border.all(color: Colors.grey.shade400),
+                      ),
+                      child: Center(
+                        child: Text(
+                          'Account',
+                          style: TextStyle(fontWeight: FontWeight.w500),
+                        ),
+                      ),
                     ),
-                    child: Center(child: Text('Lists',style: TextStyle(fontWeight: FontWeight.w500),),),
-                  ),
-                ],),
+                    Container(
+                      width: 50,
+                      height: 33,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(6),
+                        border: Border.all(color: Colors.grey.shade400),
+                      ),
+                      child: Center(
+                        child: Text(
+                          'Lists',
+                          style: TextStyle(fontWeight: FontWeight.w500),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
             Container(
               width: MediaQuery.of(context).size.width,
               height: 80,
-              decoration: BoxDecoration(color: Colors.white,border: Border(top: BorderSide(color: Colors.grey.shade300))),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                border: Border(top: BorderSide(color: Colors.grey.shade300)),
+              ),
               child: Padding(
                 padding: const EdgeInsets.only(left: 20, right: 15),
                 child: Column(
@@ -855,10 +912,7 @@ class _FlipkartState extends State<Flipkart> {
                             children: [
                               IconButton(
                                 onPressed: () {},
-                                icon: Icon(
-                                  CupertinoIcons.cart,
-                                  size: 22,
-                                ),
+                                icon: Icon(CupertinoIcons.cart, size: 22),
                               ),
                               Text(
                                 'Cart',
